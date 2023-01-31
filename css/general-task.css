@@ -1,0 +1,221 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0e1133;
+  background-color: #eef1f6;
+}
+
+/* GENRAL REUSABLE COMPONENTS */
+
+.container {
+  /* 1140px */
+  max-width: 150rem;
+  padding: 0 13rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 6.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.hero-text-box {
+  margin-top: 6rem;
+  margin-left: 2rem;
+  padding: 4rem;
+}
+
+/* HERO SECTION */
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-weight: 400;
+  color: #0e1133;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+  line-height: 1.05;
+  margin-bottom: 2rem;
+  display: block;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.hero-form {
+  background-color: #fff;
+  width: 30rem;
+  padding: 1rem 2.4rem;
+  border-left: 3px solid #ff3e66;
+  border-radius: 100px;
+  box-shadow: 0 2.4rem 3.2rem rgb(0 0 0 / 8%);
+  display: flex;
+  align-items: center;
+}
+
+.mail-icon {
+  font-size: 2rem;
+  color: #adb5bd;
+}
+
+.input[type="email"] {
+  font-family: "Roboto", sans-serif;
+  border: none;
+  width: 20rem;
+  padding: 1rem 10rem 1rem 1.6rem;
+}
+
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto;
+  color: #ff3e66;
+  font-size: 1.7rem;
+}
+
+/* section how it work */
+
+.btn-how {
+  background: none;
+  border: 2px solid rgba(14, 17, 51, 0.1);
+  padding: 1.4rem 2.4rem;
+  margin-bottom: 2rem;
+  border-radius: 100px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.how-does-cards {
+  border: 1px solid rgba(23, 28, 85, 0.09);
+  height: 30rem;
+  border-radius: 9px;
+  padding: 2rem 4.6rem;
+  transition: all 0.3s;
+}
+
+/* section marketing */
+
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-wherever {
+  display: grid;
+  gap: 3.2rem;
+}
+
+/* section wherever */
+.wherever-container {
+  max-width: 150rem;
+  padding: 0 10rem;
+  margin: 0 auto;
+  background-color: #0e1133;
+}
+.grid-2-col {
+  grid-template-columns: repeat(2, 1fr);
+}
+/* <!-- <section class="how-does-work-tow"> --> */
+.sec-how-container {
+  max-width: 150rem;
+  padding: 0 12.8rem;
+  margin: 0 auto;
+}
+.cards {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  gap: 1rem;
+}
+.sec-four-imgs-grid {
+  display: flex;
+  /* grid-template-columns: 2.5fr 1fr; */
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+/* <!-- section-download --> */
+.download-section {
+  padding: 15rem 0;
+  background-color: #eef1f6;
+}
+
+.download-container {
+  max-width: 50rem;
+}
+/* pricing-section */
+/* <!-- testimonials-section --> */
+/* <!-- sponsers-section --> */
+/* <!-- footer --> */
+.foot-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  column-gap: 4.8rem;
+  row-gap: 9.6rem;
+}

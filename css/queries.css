@@ -1,0 +1,82 @@
+/* header and hero section */
+@media (max-width: 68em) {
+  .header {
+    margin: 2rem 5rem;
+  }
+
+  .grid-3-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* section how it work */
+@media (max-width: 50em) {
+  .sec-how-container {
+    /* max-width: 100rem; */
+    padding: 0 auto;
+    margin: 0 auto;
+  }
+
+  .how-does-work {
+    padding: 4.6rem 0;
+  }
+
+  .grid {
+    column-gap: 3.4rem;
+  }
+
+  .container {
+    /* 1140px */
+    max-width: 100rem;
+    padding: 0 10rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 61em) {
+  .grid-3-cols {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 61em) {
+  .grid-2-col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 61em) {
+  .grid-4-col,
+  .grid-3-col {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 61em) {
+  .grid-4-cols,
+  .sec-four-imgs-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 61em) {
+  .opinion-containerd {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 61em) {
+  .grid-6-col {
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 35em) {
+  .grid-6-col {
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column;
+  }
+}
